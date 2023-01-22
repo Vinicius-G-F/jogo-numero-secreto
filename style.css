@@ -56,3 +56,13 @@ h3 {
     border-radius: 5px;
     margin-top: 20px;
 }
+
+.game-over-corpo {
+    background-color:darkred;
+    color: inherit;
+}
+
+.game-over-mensagem {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
