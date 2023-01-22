@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root {
+    --fonte: 'Shadows Into Light', cursive;
+    --cor-da-fonte: #1A120B;
+    --bg-cor: #D5CEA3;
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: var(--bg-cor);
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.titulo-principal {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+.box {
+    border: 4px solid var(--cor-da-fonte);
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 3rem;
+    margin: 20px;
+    padding: 10px;
+}
+
+.mensagem__marcação {
+    background-color: var(--bg-cor);
+    text-decoration:underline;
+    color: var(--cor-da-fonte);
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background-color:darkgrey;
+    border-radius: 5px;
+    margin-top: 20px;
+}
