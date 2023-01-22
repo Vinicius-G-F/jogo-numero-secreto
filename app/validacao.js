@@ -1,7 +1,16 @@
 function verificaChute (chute) {
     const numero = +chute
 
-    if (chuteValidade(numero)) {
+   if (chute.toUpperCase() == 'GAME OVER.') {
+        document.body.innerHTML = `
+        <div class="game-over-mensagem">GAME OVER</div> 
+        <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>
+        `
+        document.body.classList.add('game-over-corpo')
+        
+        return
+    }
+    else if (chuteValidade(numero)) {
         elementoChute.innerHTML += '<div>valor inválido</div>'
         return
     }
